@@ -1,0 +1,15 @@
+    [package]
+    name = "LoyaltyPointsProgram"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0x8da9c19eac5f0b94a92085b4229af95e056fa438c45e9ff725a440ed4b6a2fa6'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
